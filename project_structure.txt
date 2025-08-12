@@ -1,0 +1,89 @@
+.
+├── .project-root
+├── Dockerfile
+├── Interactive-1.interactive
+├── airflow
+│   ├── dags
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── apache_dag.cpython-311.pyc
+│   │   └── apache_dag.py
+│   └── logs
+├── data.csv
+├── data_analysis.py
+├── data_exploration.py
+├── database
+│   ├── database
+│   └── vendor_performance.db
+├── database.sql
+├── db
+│   └── init
+│       └── airflow_init.sql
+├── docker-compose.yml
+├── entrypoint.sh
+├── pipeline.py
+├── project_structure.txt
+├── pyproject.toml
+├── requirements.txt
+├── src
+│   ├── components
+│   │   ├── __pycache__
+│   │   │   ├── data_injetion.cpython-311.pyc
+│   │   │   ├── datacleaner.cpython-311.pyc
+│   │   │   └── datatransformer.cpython-311.pyc
+│   │   ├── data
+│   │   │   ├── __MACOSX
+│   │   │   │   └── data
+│   │   │   │       ├── ._begin_inventory.csv
+│   │   │   │       ├── ._end_inventory.csv
+│   │   │   │       ├── ._purchase_prices.csv
+│   │   │   │       ├── ._purchases.csv
+│   │   │   │       ├── ._sales.csv
+│   │   │   │       ├── ._vendor_invoice.csv
+│   │   │   │       └── .ipynb_checkpoints
+│   │   │   │           └── ._begin_inventory-checkpoint.csv
+│   │   │   └── data
+│   │   │       ├── .ipynb_checkpoints
+│   │   │       │   └── begin_inventory-checkpoint.csv
+│   │   │       ├── begin_inventory.csv
+│   │   │       ├── end_inventory.csv
+│   │   │       ├── purchase_prices.csv
+│   │   │       ├── purchases.csv
+│   │   │       ├── sales.csv
+│   │   │       └── vendor_invoice.csv
+│   │   ├── data_injetion.py
+│   │   ├── database
+│   │   │   └── vendor_performance.db
+│   │   ├── datacleaner.py
+│   │   ├── datatransformer.py
+│   │   └── schema_manager.py
+│   ├── connection
+│   │   ├── MySqlClient.py
+│   │   ├── SQLiteClient.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── MySqlClient.cpython-311.pyc
+│   │   │   ├── SQLiteClient.cpython-311.pyc
+│   │   │   └── __init__.cpython-311.pyc
+│   │   ├── data.csv
+│   │   └── database
+│   │       └── vendor_performance.db
+│   ├── constrains
+│   │   └── __init__.py
+│   ├── exception
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-311.pyc
+│   ├── logger
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-311.pyc
+│   └── pipeline
+├── src.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   └── top_level.txt
+└── vendor_performance.db
+
+27 directories, 59 files

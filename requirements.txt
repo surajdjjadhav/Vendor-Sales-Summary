@@ -1,0 +1,8 @@
+apache-airflow==2.8.1
+apache-airflow-providers-mysql
+pandas
+pendulum
+mysql-connector-python
+from-root
+pymysql
+-e .

@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+/airflow/logs
+/logs
+/src/components/data
+/clean_csv.csv
+/data.csv
